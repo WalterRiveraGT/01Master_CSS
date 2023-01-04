@@ -82,6 +82,36 @@
             <td colspan="2">C</td>
         </tr>
     </table>
+    <br>
+    <!--Formularios-->
+    <h3 align="center">Formulario</h3>
+    <form action="" align="center">
+        <p>
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" name="nombre" placeholder="escribe tu nombre" />
+        </p>
+        <p>
+            <label for="descripcion">Descripción</label>
+            <br>
+            <textarea name="descripcion"></textarea>
+        </p>
+        <!--radiobuttoms-->
+        <input type="radio" name="genero" value="hombre">Hombre
+        <br/>
+        <input type="radio" name="genero" value="femenino"> Mujer
+        <br/>
+        <!--campo select-->
+        <section>seleccione el género
+            <select name="opciones" id="">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select>
+        </section>
+        <br>
+        <!--botón para enviar el formulario-->
+        <input type="submit" value="enviar datos" />
+    </form>
 </body>
 
 </html>
