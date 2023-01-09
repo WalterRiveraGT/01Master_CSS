@@ -129,3 +129,19 @@ input[type="submit"] {
     color: red;
     text-decoration: none;
 }
+
+
+/*Prioridad de reglas en etiquetado de css
+- la última regla tiene más prioridad que la primera
+- prioriza la especificidad sobre cada elemento, es decir
+entre mas concreto sea el atributo a modificar, esa regla será la que tomará como válida
+*/
+
+#saludo h1 {
+    background: brown;
+}
+
+h1 {
+    /*darle la prioridad sobre cualquier otra regla*/
+    background: purple !important;
+}
