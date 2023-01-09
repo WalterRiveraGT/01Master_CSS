@@ -38,10 +38,29 @@ footer a {
 }
 
 
-/*seelctor de id*/
+/*Selector de id*/
 
 
-/*selector de clase*/
+/*aplicando los mismos estilos a diferentes id*/
+
+#descripcion,
+#titulo {
+    border: 5px solid black;
+    /*margen interior*/
+    padding: 15px;
+}
+
+
+/*se sobreescriben  las últimas modificaciones
+a cualquier elemento de html, previamente aplicadas*/
+
+#titulo {
+    background: blue;
+    border: 2px dashed white;
+}
+
+
+/*selector de clase, se utiliza para múltiples elementos*/
 
 
 /*selector de atributo*/
