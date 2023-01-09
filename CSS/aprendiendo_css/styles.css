@@ -41,7 +41,7 @@ footer a {
 /*Selector de id*/
 
 
-/*aplicando los mismos estilos a diferentes id*/
+/*aplicando los mismos estilos a diferentes id, deben aplicarse solo a un elemento*/
 
 #descripcion,
 #titulo {
@@ -61,6 +61,24 @@ a cualquier elemento de html, previamente aplicadas*/
 
 
 /*selector de clase, se utiliza para múltiples elementos*/
+
+.parrafo {
+    font-style: italic;
+    /*text-decoration: underline;*/
+    /*texto en negrita*/
+    font-weight: bold;
+    padding: 10px;
+}
+
+.parrafo1 {
+    background-color: green;
+    color: white;
+}
+
+.parrafo3 {
+    background-color: orange;
+    color: black;
+}
 
 
 /*selector de atributo*/
