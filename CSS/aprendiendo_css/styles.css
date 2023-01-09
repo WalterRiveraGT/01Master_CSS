@@ -120,3 +120,12 @@ input[type="submit"] {
     /*convertir el cursor en una "mano" cuando pase encima del botón*/
     cursor: pointer;
 }
+
+
+/*uso de selectores hijo*/
+
+#menu>li>a {
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
