@@ -8,3 +8,40 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+/*selector de etiqueta*/
+
+
+/*Títulos H1*/
+
+h1 {
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+
+/*Enlaces*/
+
+a {
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+
+/*enlace dentro del footer (selector compuesto)*/
+
+footer a {
+    color: red;
+}
+
+
+/*seelctor de id*/
+
+
+/*selector de clase*/
+
+
+/*selector de atributo*/
