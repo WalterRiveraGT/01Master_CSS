@@ -81,4 +81,42 @@ a cualquier elemento de html, previamente aplicadas*/
 }
 
 
-/*selector de atributo*/
+/*selector de atributo, elementos en específico del dom*/
+
+#usuario form {
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /*para que se separen los elementos de los bordes*/
+    padding: 20px;
+}
+
+
+/*poner elementos separados (hacia abajo)*/
+
+#usuario form * {
+    display: block;
+}
+
+
+/*estilo en concreto a los input dentro del formulario*/
+
+input[type="text"] {
+    margin-bottom: 15px;
+    /*para que los campos sean un poco mas grandes*/
+    padding: 10px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    /*pasar el texto dentro del botón de minúscula a mayúscula*/
+    text-transform: uppercase;
+    /*colocándole un borde más vistoso al botón*/
+    border: 2px solid black;
+    /*convertir el cursor en una "mano" cuando pase encima del botón*/
+    cursor: pointer;
+}
