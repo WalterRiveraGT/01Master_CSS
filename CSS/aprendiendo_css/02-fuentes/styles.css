@@ -1,3 +1,20 @@
-body {
-    background: red;
+h1 {
+    /*tipo de letra del contenido*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*estilo de la fuente*/
+    font-style: italic;
+}
+
+h3 {
+    font-family: "Comic Sans MS";
+    /*tamaño de la fuente: medida común: px, em=16px y %*/
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    /*grosor de la letra*/
+    font-weight: bold;
 }
