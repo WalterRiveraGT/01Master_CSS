@@ -12,3 +12,10 @@ body {
     font-family: sans-serif, arial, helvetica;
     background-color: rgb(6, 18, 54);
 }
+
+.subtitulo1 {
+    text-align: justify;
+    color: #0a0d3b;
+    font-size: 30px;
+    background-image: url(./img/pattern1.jpg);
+}
