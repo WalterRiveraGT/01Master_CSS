@@ -3,6 +3,7 @@ body {
 }
 
 #titulo {
+    border: 5px solid #010514;
     color: #ab98ad;
     font-family: sans-serif, arial, helvetica;
     background-color: rgb(6, 18, 54);
