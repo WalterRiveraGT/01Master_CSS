@@ -1,3 +1,10 @@
+/*importando un font-size personalizado, de uso libre*/
+
+@font-face {
+    font-family: Personalizado1;
+    src: url(fonts/Rowdies-Bold.ttf);
+}
+
 body {
     background-color: #6fa1eb;
 }
@@ -15,7 +22,9 @@ body {
 
 .subtitulo1 {
     text-align: justify;
-    color: #0a0d3b;
+    color: #ffffff;
     font-size: 30px;
+    text-shadow: 0 0 20px #000000;
+    font-family: Personalizado1;
     background-image: url(./img/pattern1.jpg);
 }
