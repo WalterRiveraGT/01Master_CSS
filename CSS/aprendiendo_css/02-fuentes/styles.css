@@ -1,5 +1,8 @@
 /*Para importar una fuente*/
 
+
+/*página recomendada para fuentes: https://fonts.google.com/*/
+
 @font-face {
     font-family: SourceSansProCustom;
     src: url(fonts/SourceSansPro-Regular.ttf);
