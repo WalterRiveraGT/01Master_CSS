@@ -1,6 +1,13 @@
+/*Para importar una fuente*/
+
+@font-face {
+    font-family: SourceSansProCustom;
+    src: url(fonts/SourceSansPro-Regular.ttf);
+}
+
 h1 {
     /*tipo de letra del contenido*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SourceSansProCustom, Arial, Helvetica, sans-serif;
     /*estilo de la fuente*/
     font-style: italic;
 }
