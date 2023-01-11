@@ -1,4 +1,4 @@
-/*Para importar una fuente*/
+/*Para importar una fuente personalizada*/
 
 
 /*página recomendada para fuentes: https://fonts.google.com/*/
@@ -13,6 +13,16 @@ h1 {
     font-family: SourceSansProCustom, Arial, Helvetica, sans-serif;
     /*estilo de la fuente*/
     font-style: italic;
+    text-transform: uppercase;
+    /*colores primera opción: color picker de google*/
+    /*colores del sistema https://www.w3schools.com/colors/default.asp*/
+    color: mediumpurple;
+    /*colores hexadecimales (visual studio code genera su propio datapicker*/
+    color: #611717;
+    /*colores RGB (rojo, verde y azul https://www.rapidtables.com/web/color/RGB_Color.html*/
+    color: rgb(86, 135, 23);
+    /*colores RGBA (rojo, verde, azul y transparencia (opacidad), entre mas baja, es mas transparente va de 0.1 a 1)*/
+    color: rgba(149, 141, 26, 0.9);
 }
 
 h3 {
@@ -20,6 +30,8 @@ h3 {
     /*tamaño de la fuente: medida común: px, em=16px y %*/
     font-size: 25px;
     font-weight: lighter;
+    /*colores del sistema*/
+    color: olive;
 }
 
 p {
