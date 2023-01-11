@@ -1,3 +1,9 @@
-h1 {
-    color: #043b72
+body {
+    background-color: #6fa1eb;
+}
+
+#titulo {
+    color: #ab98ad;
+    font-family: sans-serif, arial, helvetica;
+    background-color: rgb(6, 18, 54);
 }
