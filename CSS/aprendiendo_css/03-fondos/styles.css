@@ -4,6 +4,10 @@ body {
 
 #titulo {
     border: 5px solid #010514;
+    /*espaciados*/
+    padding: 10px;
+    margin-top: -5px;
+    text-align: center;
     color: #ab98ad;
     font-family: sans-serif, arial, helvetica;
     background-color: rgb(6, 18, 54);
