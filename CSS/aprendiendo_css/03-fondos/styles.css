@@ -27,4 +27,12 @@ body {
     text-shadow: 0 0 20px #000000;
     font-family: Personalizado1;
     background-image: url(./img/pattern1.jpg);
+    /*repetir la imagen de fondo*/
+    background-repeat: repeat;
+    /*para fondos de pantalla grandes*/
+    background-size: 100%;
+    /*dejar el fondo fijo*/
+    background-attachment: fixed;
+    /*posición del background*/
+    background-position: right bottom;
 }
