@@ -5,6 +5,11 @@
     src: url(fonts/Rowdies-Bold.ttf);
 }
 
+@font-face {
+    font-family: PersonalizadoTexto;
+    src: url(fonts/Rowdies-Regular.ttf);
+}
+
 body {
     background-color: #6fa1eb;
 }
@@ -35,4 +40,21 @@ body {
     background-attachment: fixed;
     /*posición del background*/
     background-position: right bottom;
+    /*texto en mayúscula o minúscula*/
+    text-transform: capitalize;
+    /*colocarle una línea en la parte inferior al texto*/
+    text-decoration: underline;
+    /*espacio entre palabra*/
+    word-spacing: 10px;
+    /*espacio entre letra y letra*/
+    letter-spacing: 5px;
+}
+
+.texto1 {
+    text-align: justify;
+    font-family: PersonalizadoTexto;
+    /*altura de línea*/
+    line-height: 50px;
+    /*colocarle un identado al texto*/
+    text-indent: 75px;
 }
