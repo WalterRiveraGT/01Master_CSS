@@ -25,4 +25,19 @@
     margin-bottom: 40px;
     margin-left: 30px;
     margin-right: 30px;
+    /*margen interno (izq, der, arriba y abajo)*/
+    padding: 25px;
+    /*meter más borde interno pero en la parte inferior*/
+    padding-bottom: 34px;
+}
+
+
+/*estilo a los textos de las cajas*/
+
+p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    /*desplazar texto*/
+    line-height: 230px;
 }
