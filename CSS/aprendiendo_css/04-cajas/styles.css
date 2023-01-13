@@ -1,0 +1,19 @@
+/*resetear los valores por defecto los estilos de css */
+
+* {
+    margin: 0px;
+    /*márgenes interiores*/
+    padding: 0px;
+}
+
+
+/*dándole el tamaño a las cajas ycompartir las mismas propiedades con elementos css*/
+
+#caja1,
+#caja2 {
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    /*borde a una caja*/
+    border: 10px solid red;
+}
