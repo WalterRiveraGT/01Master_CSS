@@ -11,12 +11,14 @@
 
 #caja1,
 #caja2 {
+    /*ancho*/
     width: 250px;
+    /*alto*/
     height: 250px;
     background-color: lightblue;
     /*borde a una caja*/
     border: 10px solid red;
-    /*márgenes*/
+    /*márgenes externos*/
     /*margenes top, right, left e bottom (separación)*/
     margin: 15px;
     margin-top: 25px;
@@ -31,6 +33,35 @@
     padding-bottom: 34px;
     /*posicionamiento de las cajas*/
     /*poniendo las cajas una al lado de la otra*/
+    /*el float se puede aplicar, siempre y cuando el display sea block*/
+    float: left;
+}
+
+.caja {
+    display: block;
+    /*ancho*/
+    width: 250px;
+    /*alto*/
+    height: 250px;
+    background-color: lightblue;
+    /*borde a una caja*/
+    border: 10px solid red;
+    /*márgenes externos*/
+    /*margenes top, right, left e bottom (separación)*/
+    margin: 15px;
+    margin-top: 25px;
+    /*El margin-bottom CSS (margen-inferior) es la propiedad de un elemento 
+    que establece el espacio requerido en la parte inferior de un elemento. Tambien se permiten valores negativos*/
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /*margen interno (izq, der, arriba y abajo)*/
+    padding: 25px;
+    /*meter más borde interno pero en la parte inferior*/
+    padding-bottom: 34px;
+    /*posicionamiento de las cajas*/
+    /*poniendo las cajas una al lado de la otra*/
+    /*el float se puede aplicar, siempre y cuando el display sea block*/
     float: left;
 }
 
