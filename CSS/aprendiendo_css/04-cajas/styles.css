@@ -7,6 +7,13 @@
 }
 
 
+/*colocando un padding al body (margen interior) para que separe el contenido de pantalla*/
+
+body {
+    padding: 20px;
+}
+
+
 /*dándole el tamaño a las cajas ycompartir las mismas propiedades con elementos css*/
 
 #caja1,
