@@ -67,3 +67,10 @@ body {
     /*limpiar los flotados*/
     clear: both;
 }
+
+#seccion_cajas1 {
+    /*para que queden tres cuadros en cada linea,
+    se le colocó un id a la sección de cajas y luego se fueron haciendo pruebas hasta lograrlo,
+    esto variará según el tamaño de pantalla*/
+    max-width: 1200px;
+}
