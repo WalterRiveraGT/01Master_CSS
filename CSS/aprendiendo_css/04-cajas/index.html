@@ -10,18 +10,29 @@
 <body>
     <h1>Manejo de cajas en CSS</h1>
     <!--elementos que pueden actuar como una caja: DIV Y SECTION-->
-    <div id="caja1">
-        <p>Contenido de la caja 1</p>
-    </div>
-    <section id="caja2">
-        <p>Contenido de la caja 2</p>
+    <!--cajas flotadas-->
+    <section>
+        <div id="caja1">
+            <p>Contenido de la caja 1</p>
+        </div>
+        <section id="caja2">
+            <p>Contenido de la caja 2</p>
+        </section>
+        <div class="caja">
+            <p>Contenido caja 3</p>
+        </div>
+        <div class="caja">
+            <p>contenido caja 4</p>
+        </div>
     </section>
-    <div class="caja">
-        <p>Contenido caja 3</p>
+    <!--elementos no flotados que se mantengan abajo-->
+    <!--limpiar los flotados-->
+    <div class="clearfix">
+
     </div>
-    <div class="caja">
-        <p>contenido caja 4</p>
-    </div>
+    <h2>Contenido después de las cajas posicionadas</h2>
+    <br>
+    <p>Texto TExto texto texto texto texto.............</p>
 </body>
 
 </html>
