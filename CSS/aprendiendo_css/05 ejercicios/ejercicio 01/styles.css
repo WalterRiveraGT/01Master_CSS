@@ -48,3 +48,12 @@ body {
     padding: none;
     margin: 10px;
 }
+
+
+/*limpiando flotantes*/
+
+.pie {
+    float: none;
+    /*limpiar los flotados*/
+    clear: both;
+}
