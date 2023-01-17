@@ -23,6 +23,8 @@ una cuadrícula con 4 líneas de 2 cajas.
     margin: 0px;
     /*márgenes interiores*/
     padding: 0px;
+    /*evitar subrayados*/
+    text-decoration: none;
 }
 
 
