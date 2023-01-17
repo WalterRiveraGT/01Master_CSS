@@ -24,3 +24,11 @@ una cuadrícula con 4 líneas de 2 cajas.
     /*márgenes interiores*/
     padding: 0px;
 }
+
+
+/*agregando márgenes internos y externos a todo lo que estará en el body*/
+
+body {
+    margin: 20px;
+    padding: 20px
+}
