@@ -15,3 +15,12 @@ una cuadrícula con 4 líneas de 2 cajas.
 9. el footer deb tener un ancho del 100% del div que lo contiene y estar abajo de todo
 
 */
+
+
+/*resetear los valores por defecto los estilos de css */
+
+* {
+    margin: 0px;
+    /*márgenes interiores*/
+    padding: 0px;
+}
