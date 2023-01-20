@@ -58,10 +58,45 @@ body {
     text-shadow: 0 0 20px #000000;
 }
 
+
+/*limpiar flotados*/
+
+.limpia_flotados {
+    float: none;
+    clear: both;
+}
+
+
+/*Menú debo tener los elementos uno al lado del otro. y ocupar el 100% del div*/
+
+#menu {
+    background-color: #eeeeee;
+    font-size: 18px;
+}
+
 #menu>ul>li {
-    float: left;
     padding: none;
     margin: 10px;
+    /*para que los elementos de li se comporten como un bloque*/
+    display: block;
+    float: left;
+    padding: 15px;
+    /*colocarle una línea a la derecha a cada elemento de la lista*/
+    border-right: 2px solid #ccc;
+}
+
+
+/*cambiarle el color de fuente a los elementos de la lista ul del menú*/
+
+#menu ul li a {
+    color: #444;
+}
+
+
+/*pseudoclase para cambiar el color al texto cuando el mause pase encima del texto*/
+
+#menu ul li a:hover {
+    color: #171c44;
 }
 
 
