@@ -82,7 +82,9 @@ una cuadrícula con 4 líneas de 2 cajas.
  /*pseudoclase para cambiar el color al texto cuando el mause pase encima del texto*/
  
  #menu ul li:hover {
-     background: green
+     background: green;
+     /*hacer que el puntero se vuelva como una mano (cursor pointer)*/
+     cursor: pointer;
  }
  /*cada vez que pase el mouse sobre un elemento de la lista*/
  
