@@ -1,4 +1,4 @@
-/*ejercicio 01 completo con css
+ /*ejercicio 01 completo con css
 
 1. Crear un documento HTML Y vincularlo con un CSS
 2. Crear una estructuctura HTML que cuente con un contenedor geenral,
@@ -15,108 +15,94 @@ una cuadrícula con 4 líneas de 2 cajas.
 9. el footer deb tener un ancho del 100% del div que lo contiene y estar abajo de todo
 
 */
-
-
-/*resetear los valores por defecto los estilos de css */
-
-* {
-    margin: 0px;
-    /*márgenes interiores*/
-    padding: 0px;
-    /*evitar subrayados*/
-    text-decoration: none;
-}
-
-
-/*agregando márgenes internos y externos a todo lo que estará en el body*/
-
-body {
-    margin: 20px;
-    padding: 20px
-}
-
-
-/*4. Header debe ocupar el 100% del ancho y tener un texto grande centrado.*/
-
-#header {
-    width: 100%;
-    height: 100px;
-    background: green;
-    font-size: 20px;
-    /*alineación horizontal*/
-    text-align: center;
-    /*alineación vertical*/
-    line-height: 80px;
-    color: white;
-}
-
-#titulo_pagina {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    background-color: #171c44;
-    text-shadow: 0 0 20px #000000;
-}
-
-
-/*limpiar flotados*/
-
-.limpia_flotados {
-    float: none;
-    clear: both;
-}
-
-
-/*Menú debo tener los elementos uno al lado del otro. y ocupar el 100% del div*/
-
-#menu {
-    background-color: #eeeeee;
-    font-size: 18px;
-}
-
-#menu>ul>li {
-    padding: none;
-    margin: 10px;
-    /*para que los elementos de li se comporten como un bloque*/
-    display: block;
-    float: left;
-    padding: 15px;
-    /*colocarle una línea a la derecha a cada elemento de la lista*/
-    border-right: 2px solid #ccc;
-}
-
-
-/*cambiarle el color de fuente a los elementos de la lista ul del menú*/
-
-#menu ul li a {
-    color: #444;
-}
-
-
-/*pseudoclase para cambiar el color al texto cuando el mause pase encima del texto*/
-
-#menu ul li a:hover {
-    color: #171c44;
-}
-
-
-/*limpiando flotantes*/
-
-.pie {
-    float: none;
-    /*limpiar los flotados*/
-    clear: both;
-}
-
-
-/* Todo el contenido debe estar dentro del contenedor general
+ /*resetear los valores por defecto los estilos de css */
+ 
+ * {
+     margin: 0px;
+     /*márgenes interiores*/
+     padding: 0px;
+     /*evitar subrayados*/
+     text-decoration: none;
+ }
+ /*agregando márgenes internos y externos a todo lo que estará en el body*/
+ 
+ body {
+     margin: 20px;
+     padding: 20px
+ }
+ /*4. Header debe ocupar el 100% del ancho y tener un texto grande centrado.*/
+ 
+ #header {
+     width: 100%;
+     height: 100px;
+     background: green;
+     font-size: 20px;
+     /*alineación horizontal*/
+     text-align: center;
+     /*alineación vertical*/
+     line-height: 80px;
+     color: white;
+ }
+ 
+ #titulo_pagina {
+     color: white;
+     font-size: 20px;
+     text-align: center;
+     background-color: #171c44;
+     text-shadow: 0 0 20px #000000;
+ }
+ /*limpiar flotados*/
+ 
+ .limpia_flotados {
+     float: none;
+     clear: both;
+ }
+ /*Menú debo tener los elementos uno al lado del otro. y ocupar el 100% del div*/
+ 
+ #menu {
+     background-color: #eeeeee;
+     font-size: 18px;
+ }
+ 
+ #menu>ul>li {
+     padding: none;
+     margin: 10px;
+     /*para que los elementos de li se comporten como un bloque*/
+     display: block;
+     float: left;
+     padding: 15px;
+     /*colocarle una línea a la derecha a cada elemento de la lista*/
+     border-right: 2px solid #ccc;
+ }
+ /*cambiarle el color de fuente a los elementos de la lista ul del menú*/
+ 
+ #menu ul li a {
+     color: #444;
+ }
+ /*pseudoclase para cambiar el color al texto cuando el mause pase encima del texto*/
+ 
+ #menu ul li:hover {
+     background: green
+ }
+ /*cada vez que pase el mouse sobre un elemento de la lista*/
+ 
+ #menu ul li:hover a {
+     color: white;
+ }
+ /*limpiando flotantes*/
+ 
+ .pie {
+     float: none;
+     /*limpiar los flotados*/
+     clear: both;
+ }
+ /* Todo el contenido debe estar dentro del contenedor general
 y su ancho será de 1200px y estar centrado*/
-
-#contenedor_general {
-    width: 1200px;
-    /*centrar el contenido*/
-    margin: 0px auto;
-    border: 2px solid rgb(10, 10, 10);
-    /*separando el contenedor del otro elemento*/
-    margin-top: 20px;
-}
+ 
+ #contenedor_general {
+     width: 1200px;
+     /*centrar el contenido*/
+     margin: 0px auto;
+     border: 2px solid rgb(10, 10, 10);
+     /*separando el contenedor del otro elemento*/
+ }
