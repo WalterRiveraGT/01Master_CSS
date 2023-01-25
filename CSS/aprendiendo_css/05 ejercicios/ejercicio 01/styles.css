@@ -70,14 +70,15 @@ una cuadrícula con 4 líneas de 2 cajas.
      /*para que los elementos de li se comporten como un bloque*/
      display: block;
      float: left;
-     padding: 15px;
      /*colocarle una línea a la derecha a cada elemento de la lista*/
      border-right: 2px solid #ccc;
  }
  /*cambiarle el color de fuente a los elementos de la lista ul del menú*/
  
  #menu ul li a {
+     display: block;
      color: #444;
+     padding: 15px;
  }
  /*pseudoclase para cambiar el color al texto cuando el mause pase encima del texto*/
  
@@ -107,4 +108,20 @@ y su ancho será de 1200px y estar centrado*/
      margin: 0px auto;
      border: 2px solid rgb(10, 10, 10);
      /*separando el contenedor del otro elemento*/
+ }
+ /*6. El contenido principal debe tenre un ancho del 70%.
+7. El contenido dentro del contenedor principal deb ser 
+una cuadrícula con 4 líneas de 2 cajas.
+8. Barra lateral debe tener un ancho del 30%.*/
+ 
+ #contenido {
+     width: 70%;
+     border: 1px solid #171c44;
+     margin: 20px;
+ }
+ /*barra lateral*/
+ 
+ #lateral {
+     width: 30%;
+     border: 1px solid red;
  }
