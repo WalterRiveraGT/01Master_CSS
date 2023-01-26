@@ -115,13 +115,18 @@ una cuadrícula con 4 líneas de 2 cajas.
 8. Barra lateral debe tener un ancho del 30%.*/
  
  #contenido {
-     width: 70%;
+     width: 63%;
      border: 1px solid #171c44;
-     margin: 20px;
+     float: left;
+     margin: 10px;
+     padding: 10px;
  }
  /*barra lateral*/
  
  #lateral {
+     float: left;
      width: 30%;
      border: 1px solid red;
+     margin: 10px;
+     padding: 10px;
  }
