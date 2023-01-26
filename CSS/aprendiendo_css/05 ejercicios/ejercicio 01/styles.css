@@ -130,3 +130,22 @@ una cuadrícula con 4 líneas de 2 cajas.
      margin: 10px;
      padding: 10px;
  }
+ /*7. El contenido dentro del contenedor principal deb ser 
+una cuadrícula con 4 líneas de 2 cajas.*/
+ 
+ #contenido .caja {
+     width: 40%;
+     height: 50px;
+     border: 1px solid black;
+     float: left;
+     background: plum;
+     margin: 10px;
+     text-align: center;
+     line-height: 50px;
+     /*tratar de centrar los divs*/
+     margin-left: 50px;
+ }
+ 
+ .titulo_interno {
+     text-align: center;
+ }
