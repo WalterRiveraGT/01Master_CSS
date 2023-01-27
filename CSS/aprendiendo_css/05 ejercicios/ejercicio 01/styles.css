@@ -148,15 +148,23 @@ una cuadrícula con 4 líneas de 2 cajas.*/
  
  #contenido .caja {
      width: 40%;
-     height: 50px;
-     border: 1px solid black;
+     height: 200px;
+     font: 15px bold;
+     border: 1px solid gray;
      float: left;
-     background: plum;
+     /*color de la fuente*/
+     color: white;
+     background-color: #ccc;
      margin: 10px;
      text-align: center;
-     line-height: 50px;
      /*tratar de centrar los divs*/
      margin-left: 50px;
+     /*centrar texto*/
+     text-align: center;
+     /*alineación vertical*/
+     line-height: 200px;
+     color: #444;
+     text-transform: uppercase;
  }
  /*título cajas internas*/
  
@@ -164,7 +172,8 @@ una cuadrícula con 4 líneas de 2 cajas.*/
      text-align: center;
      border-bottom: 1px solid #ccc;
      padding: 15px;
-     color: #444;
+     background-color: #171c44;
+     color: white;
      /*parámetros: eje x, eje y, difuminado y color de la sombra*/
-     text-shadow: 10px, 0px, 5px, black;
+     text-shadow: 0px, 0px, 5px, black;
  }
