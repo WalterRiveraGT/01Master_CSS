@@ -158,7 +158,12 @@ una cuadrícula con 4 líneas de 2 cajas.*/
      /*tratar de centrar los divs*/
      margin-left: 50px;
  }
+ /*título cajas internas*/
  
  .titulo_interno {
      text-align: center;
+     border-bottom: 1px solid #ccc;
+     padding: 15px;
+     color: white;
+     background-color: #2d7fb6;
  }
