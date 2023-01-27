@@ -160,10 +160,11 @@ una cuadrícula con 4 líneas de 2 cajas.*/
  }
  /*título cajas internas*/
  
- .titulo_interno {
+ #contenido>h1 {
      text-align: center;
      border-bottom: 1px solid #ccc;
      padding: 15px;
-     color: white;
-     background-color: #2d7fb6;
+     color: #444;
+     /*parámetros: eje x, eje y, difuminado y color de la sombra*/
+     text-shadow: 10px, 0px, 5px, black;
  }
