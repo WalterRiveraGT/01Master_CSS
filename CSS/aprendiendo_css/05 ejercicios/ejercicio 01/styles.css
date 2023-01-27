@@ -102,9 +102,13 @@ una cuadrícula con 4 líneas de 2 cajas.
  /*limpiando flotantes*/
  
  .pie {
-     float: none;
-     /*limpiar los flotados*/
-     clear: both;
+     width: 100%;
+     background: #eee;
+     text-align: center;
+     color: #444;
+     height: 55%;
+     line-height: 55px;
+     border-top: 1px solid #ccc
  }
  /* Todo el contenido debe estar dentro del contenedor general
 y su ancho será de 1200px y estar centrado*/
@@ -123,7 +127,7 @@ una cuadrícula con 4 líneas de 2 cajas.
  
  #contenido {
      width: 63%;
-     /*border: 1px solid #171c44;*/
+     border: 1px solid #171c44;
      float: left;
      margin: 10px;
      padding: 10px;
@@ -136,6 +140,8 @@ una cuadrícula con 4 líneas de 2 cajas.
      border: 1px solid red;
      margin: 10px;
      padding: 10px;
+     min-height: 500px;
+     text-align: center;
  }
  /*7. El contenido dentro del contenedor principal deb ser 
 una cuadrícula con 4 líneas de 2 cajas.*/
