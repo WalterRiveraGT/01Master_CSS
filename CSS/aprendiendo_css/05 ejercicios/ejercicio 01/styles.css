@@ -168,6 +168,13 @@ una cuadrícula con 4 líneas de 2 cajas.*/
      /*aplicándole sombreado exterior a los divs dentro del contenido principal*/
      /*parámetros: eje x, eje y, difuminado y color de la sombra*/
      box-shadow: 5px 5px 10px rgb(20, 20, 20);
+     /*aplicando bordes redondeados a los divs*/
+     /*los parámetros son: todos parejos: xxpx
+     o bien, borde superior izquierdo, borde superior derecho, 
+     borde inferior derecho y borde inferior izquierdo*/
+     border-radius: 25px;
+     /*intentar pasar las cajas de rectangulares / cuadradas a redondas*/
+     /*border-radius: 999px;*/
  }
  /*título cajas internas*/
  
