@@ -180,3 +180,10 @@ una cuadrícula con 4 líneas de 2 cajas.*/
      /*parámetros: eje x, eje y, difuminado y color de la sombra*/
      text-shadow: 0px 0px 5px black;
  }
+ /*aplicando una sombra interior a la caja no. 2 (div)*/
+ /*se utiliza !important para evitar que se sobreescriban otras clases u
+ otras propiedades del dom que sean con mayor prioridad*/
+ 
+ .sombra-interior {
+     box-shadow: 5px 5px 10px gray inset !important;
+ }
