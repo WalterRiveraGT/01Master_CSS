@@ -141,7 +141,16 @@ una cuadrícula con 4 líneas de 2 cajas.
      margin: 10px;
      padding: 10px;
      min-height: 500px;
+     /*altura máxima*/
+     max-height: 650px;
      text-align: center;
+     /*overflow: Es una propiedad que nos permite controlar lo que se sale
+ de una caja o lo que se queda adentro*/
+     /*overflow hidden: todo lo que se salga del límite de altura del objeto, se esconde
+     overflow scroll: Permite colocar una barra de navegación al elemento del dom (div) que contiene la info,
+     por defecto colocará estas barras tanto en la parte superior(y) como en la lateral(x)
+     para dejar la barra de navegación solo en el eje y: overflow-y: scroll*/
+     overflow-y: scroll;
  }
  /*7. El contenido dentro del contenedor principal deb ser 
 una cuadrícula con 4 líneas de 2 cajas.*/
