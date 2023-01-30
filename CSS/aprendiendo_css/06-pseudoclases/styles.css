@@ -25,3 +25,10 @@ ul li:first-child {
     color: purple;
     font-weight: bold;
 }
+
+
+/*elegir un elemento en específico de la lista*/
+
+ul li:nth-child(3) {
+    color: brown;
+}
