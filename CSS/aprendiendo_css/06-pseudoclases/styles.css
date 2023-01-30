@@ -72,3 +72,11 @@ ul li:last-child {
 body h1:hover {
     color: blue;
 }
+
+
+/*mientras esté clicando sobre el elemento*/
+
+#enlace-google:active {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
