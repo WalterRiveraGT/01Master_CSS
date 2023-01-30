@@ -1,3 +1,27 @@
+/*colocando a todo el contenido de la página, el mismo tipo de font-family*/
+
+* {
+    font-family: verdana, arial, helvet;
+}
+
 body>h1 {
     color: Red;
+    text-align: center;
+    /*poner el texto en negrita*/
+    font-weight: bold;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+
+/*CONCEPTO DE PSEUDOCLASE: Es como una especie de selector*/
+
+
+/*ej. seleccionando el primer elemento del li y aplicando estilos con css*/
+
+ul li:first-child {
+    color: purple;
+    font-weight: bold;
 }
