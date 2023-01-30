@@ -86,4 +86,12 @@ body h1:hover {
 
 #nombre[type="text"] {
     margin-top: 20px;
+    padding: 10px;
+}
+
+
+/*aplicando la pseudoclase focus al input del formulario con id nombre*/
+
+#nombre:focus {
+    border: 4px dashed red;
 }
