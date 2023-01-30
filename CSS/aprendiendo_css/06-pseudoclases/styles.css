@@ -62,3 +62,13 @@ ul li:last-child {
 #enlace-google:visited {
     color: orangered;
 }
+
+
+/*aplicar pseudoclases a cualquier elemento*/
+
+
+/*si paso por encima de un elemento */
+
+body h1:hover {
+    color: blue;
+}
