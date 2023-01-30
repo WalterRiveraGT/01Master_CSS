@@ -203,3 +203,5 @@ una cuadrícula con 4 líneas de 2 cajas.*/
  .sombra-interior {
      box-shadow: 5px 5px 10px gray inset !important;
  }
+ /*posicionamiento relativo: es el que se le coloca por defecto a los elementos
+ posicionamiento absoluto: todo lo unifica y lo deja en la misma posición*/
