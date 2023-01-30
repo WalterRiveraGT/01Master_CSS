@@ -32,3 +32,33 @@ ul li:first-child {
 ul li:nth-child(3) {
     color: brown;
 }
+
+
+/*darle estilos al último elemento de la lista*/
+
+ul li:last-child {
+    color: blue;
+    font-weight: bold;
+}
+
+
+/*aplicando estilos y pseudoclases al enlace*/
+
+#enlace-google {
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+
+/*cuando aún no se ha visitado el enlace*/
+
+#enlace-google:link {
+    color: red;
+}
+
+
+/*cuando ya se visitó el enlace*/
+
+#enlace-google:visited {
+    color: orangered;
+}
