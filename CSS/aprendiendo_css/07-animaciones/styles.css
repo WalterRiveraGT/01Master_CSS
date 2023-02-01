@@ -1,0 +1,9 @@
+#titulo {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+#titulo:hover {
+    color: blue;
+}
