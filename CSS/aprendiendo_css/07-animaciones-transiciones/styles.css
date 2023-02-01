@@ -1,0 +1,26 @@
+#titulo {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+#titulo:hover {
+    color: blue;
+}
+
+#enlace {
+    /*para que se comporte como un bloque*/
+    display: block;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    /*tamaño*/
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*texto en negrita*/
+    font-weight: bold;
+    text-decoration: none;
+    /*borde*/
+    border: 4px solid rgb(7, 73, 7);
+}
