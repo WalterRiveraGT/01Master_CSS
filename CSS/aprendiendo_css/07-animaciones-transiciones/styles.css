@@ -23,6 +23,10 @@
     text-decoration: none;
     /*borde*/
     border: 5px solid rgb(7, 73, 7);
+    /*transición: Se le aplica al objeto, el primer parámetro si 
+    queremos que nos cambie todas las propiedades css, le colocamos all, el segundo parámetro es el tiempo
+    dado en segundos(s) o milisegundos (ms), que demorará en realizar la transición*/
+    transition: all 500ms;
 }
 
 
