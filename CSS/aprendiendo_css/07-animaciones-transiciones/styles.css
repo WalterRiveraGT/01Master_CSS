@@ -26,7 +26,9 @@
     /*transición: Se le aplica al objeto, el primer parámetro si 
     queremos que nos cambie todas las propiedades css, le colocamos all, el segundo parámetro es el tiempo
     dado en segundos(s) o milisegundos (ms), que demorará en realizar la transición*/
-    transition: all 500ms;
+    /*transition: all 500ms;*/
+    /*timing diferente a cada elemento */
+    transition: border 500ms, background 3s, border-radius 1s;
 }
 
 
