@@ -57,4 +57,25 @@ en fotogramas claves (key frames) */
     text-align: center;
     color: white;
     border: 5px solid black;
+    /*para aplicar la animación a un elemento del DOM, simplemente invocamos lo siguiente:
+    animation-name: nombre del keyframe o los keyframes*/
+    animation-name: desplazamiento;
+    /*se puede definir también cuanto tiempo durará la animación, con la instrucción:*/
+    animation-duration: 10s;
+    /*hacer o no infinita la animación*/
+    animation-iteration-count: infinite;
+}
+
+
+/*definiendo los keyframes para realizar la(s) animacion(es)*/
+
+@keyframes desplazamiento {
+    /*el parámetro from, son los estilos css iniciales*/
+    /*el parámetro to, con los estilos css que terminará */
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 1200px;
+    }
 }
