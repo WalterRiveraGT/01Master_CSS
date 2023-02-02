@@ -69,13 +69,32 @@ en fotogramas claves (key frames) */
 
 /*definiendo los keyframes para realizar la(s) animacion(es)*/
 
+
+/*
 @keyframes desplazamiento {
     /*el parámetro from, son los estilos css iniciales*/
-    /*el parámetro to, con los estilos css que terminará */
+
+
+/*el parámetro to, con los estilos css que terminará 
     from {
         margin-left: 0px;
     }
     to {
         margin-left: 1200px;
+    }
+}*/
+
+@keyframes desplazamiento {
+    /*simulando que da vueltas el div, para esto empleamos tres keyframes,
+    también podemos emplear porcentajes, haciendo referencia no al tamaño de la pantalla, sino al porcentaje
+    de esta*/
+    0% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: 1200px;
+    }
+    100% {
+        margin-left: 0px;
     }
 }
