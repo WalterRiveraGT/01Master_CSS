@@ -64,6 +64,8 @@ en fotogramas claves (key frames) */
     animation-duration: 10s;
     /*hacer o no infinita la animación*/
     animation-iteration-count: infinite;
+    /*cambiando el timing de la animación, para que todo el tiempo vaya a la misma velocidad*/
+    animation-timing-function: linear;
 }
 
 
@@ -85,7 +87,7 @@ en fotogramas claves (key frames) */
 }*/
 
 @keyframes desplazamiento {
-    /*simulando que da vueltas el div, para esto empleamos tres keyframes,
+    /*simulando que el div llega al final de pantalla y se regresa, para esto empleamos tres keyframes,
     también podemos emplear porcentajes, haciendo referencia no al tamaño de la pantalla, sino al porcentaje
     de esta*/
     0% {
