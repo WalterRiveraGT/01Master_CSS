@@ -92,11 +92,21 @@ en fotogramas claves (key frames) */
     de esta*/
     0% {
         margin-left: 0px;
+        /*aplicarle transformaciones de css*/
+        transform: rotate(0deg);
     }
     50% {
         margin-left: 1200px;
+        transform: rotate(360deg);
+        /*hacer que el div se convierta en una pelota*/
+        border-radius: 999px;
+    }
+    75% {
+        /*hacer que cambie de color el objeto al 75% de la animación*/
+        background: red;
     }
     100% {
         margin-left: 0px;
+        transform: rotate(0deg);
     }
 }
