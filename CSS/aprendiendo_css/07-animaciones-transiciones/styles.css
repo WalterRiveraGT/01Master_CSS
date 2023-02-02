@@ -39,3 +39,22 @@
     background: orangered;
     border: 5px solid red;
 }
+
+
+/*las animaciones no se lanzan con una pseudoclase, estan basadas
+en fotogramas claves (key frames) */
+
+
+/*dándole estilo al div con id caja*/
+
+#caja {
+    margin-top: 25px;
+    width: 250px;
+    font-size: 20px;
+    height: 250px;
+    line-height: 250px;
+    background-color: lightseagreen;
+    text-align: center;
+    color: white;
+    border: 5px solid black;
+}
