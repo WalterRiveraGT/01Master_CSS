@@ -1,0 +1,14 @@
+/*fuentes*/
+
+
+/*Esitlos  generales*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /*agregando patrón de fondo en la página*/
+    background-image: url(../img/paven.png);
+}
