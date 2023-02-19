@@ -25,3 +25,19 @@ body {
     /*en caso de ser necesario, centre el div*/
     margin: 0px auto;
 }
+
+
+/*enlaces dentro de la cabecera*/
+
+#header a {
+    /*le quite la decoración al enlace*/
+    text-decoration: none;
+}
+
+
+/*enlaces dentro de la cabecera*/
+
+#header a {
+    /*le quite la decoración al enlace*/
+    text-decoration: none;
+}
