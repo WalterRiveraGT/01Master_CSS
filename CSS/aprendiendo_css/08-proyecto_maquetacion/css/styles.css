@@ -64,3 +64,18 @@ body {
     margin: 0px auto;
     width: 140px;
 }
+
+
+/*título dentro del header*/
+
+#header h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/*color del enlace*/
+
+#header h1 a {
+    color: #70b231;
+}
