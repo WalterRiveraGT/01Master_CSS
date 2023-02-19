@@ -12,3 +12,16 @@ body {
     /*agregando patrón de fondo en la página*/
     background-image: url(../img/paven.png);
 }
+
+
+/*estilos de cabecera*/
+
+#header {
+    min-width: 1024px;
+    /*para que ocupe el 100% del diseño original*/
+    width: 100%;
+    /*altura*/
+    height: 250px;
+    /*en caso de ser necesario, centre el div*/
+    margin: 0px auto;
+}
