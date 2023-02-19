@@ -41,3 +41,15 @@ body {
     /*le quite la decoración al enlace*/
     text-decoration: none;
 }
+
+
+/*aplicando estilos al div del logotipo dentro del header*/
+
+#header #logotipo {
+    /*tamaño del div*/
+    width: 750px;
+    /*centrar el contenido del div*/
+    margin: 0px auto;
+    /*margen superior*/
+    padding-top: 20px;
+}
