@@ -53,3 +53,14 @@ body {
     /*margen superior*/
     padding-top: 20px;
 }
+
+
+/*imagen dentro del logotipo*/
+
+#header #logotipo img {
+    display: block;
+    text-align: center;
+    /*centrar la imagen*/
+    margin: 0px auto;
+    width: 140px;
+}
