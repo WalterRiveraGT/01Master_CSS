@@ -177,3 +177,19 @@ cada opción del menú)*/
     la propiedad inset genera la sombra en los bordes internos*/
     box-shadow: 0px 0px 4px green inset;
 }
+
+
+/*seleccionando menús desplegables*/
+
+#nav>ul>li>ul {
+    /*ocular los menús*/
+    display: none;
+    /*que no desfigure el sitio web*/
+    position: absolute;
+    color: white;
+    text-align: left;
+    width: 160px;
+    box-shadow: 0px 2px 2px gray;
+    /*para que esté por encima de los elementos (se superponga)*/
+    z-index: 1;
+}
