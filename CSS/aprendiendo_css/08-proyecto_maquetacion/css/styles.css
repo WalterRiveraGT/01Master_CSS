@@ -186,8 +186,6 @@ cada opción del menú)*/
     display: none;
     /*que no desfigure el sitio web*/
     position: absolute;
-    color: white;
-    text-align: left;
     width: 160px;
     box-shadow: 0px 2px 2px gray;
     /*para que esté por encima de los elementos (se superponga)*/
