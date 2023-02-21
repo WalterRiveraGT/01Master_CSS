@@ -130,3 +130,15 @@ body {
     /*correr el contenido*/
     width: 1130px;
 }
+
+
+/*elementos li de primer nivel*/
+
+#nav>ul>li {
+    /*para que cada elemento se centre verticalmente*/
+    line-height: 40px;
+    /*para que los li se pongan uno al lado del otro*/
+    float: left;
+    /*borde de separación para cada elemento del li*/
+    border-right: 2px solid gray;
+}
