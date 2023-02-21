@@ -116,3 +116,17 @@ body {
     /*efecto de sobreado al nav*/
     box-shadow: 0px 0px 2px gray;
 }
+
+
+/*agregando estilos a los elementos dentro del ul que está en el div*/
+
+#nav ul {
+    /*quitar las viñetas*/
+    list-style: none;
+    /*quitar subrayados u otros efectos a los textos dentro del UL*/
+    text-decoration: none;
+    /*centrar todo*/
+    margin: 0px auto;
+    /*correr el contenido*/
+    width: 1130px;
+}
