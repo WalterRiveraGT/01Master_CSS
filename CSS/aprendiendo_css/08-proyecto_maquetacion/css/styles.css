@@ -164,3 +164,11 @@ body {
 #nav>ul>li a:first-child {
     border-left: 1px solid gray;
 }
+
+
+/*generar un efecto hover (que cambie de color cuando pase encima de 
+cada opción del menú)*/
+
+#nav>ul>li:hover {
+    background-color: #70b231;
+}
