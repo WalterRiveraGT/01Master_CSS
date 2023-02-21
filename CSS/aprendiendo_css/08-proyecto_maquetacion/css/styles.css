@@ -141,6 +141,8 @@ body {
     float: left;
     /*borde de separación para cada elemento del li*/
     border-right: 2px solid gray;
+    /*efecto de transición entre cada elemento del li*/
+    transition: all 300ms;
 }
 
 
