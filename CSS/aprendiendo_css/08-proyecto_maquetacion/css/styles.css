@@ -97,3 +97,22 @@ body {
 #header h1 a {
     color: #70b231;
 }
+
+
+/*estilos a la barrra de navegación*/
+
+#nav {
+    /*tamaño mínimo de la barra de la navegación*/
+    /*podemos dejar definido que ocupe todo el ancho con*/
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    /*altura*/
+    height: 40px;
+    /*tipo de fuente*/
+    font-family: sans-serif, helvetica, arial;
+    /*tamaño de letra*/
+    font-size: 14px;
+    /*efecto de sobreado al nav*/
+    box-shadow: 0px 0px 2px gray;
+}
