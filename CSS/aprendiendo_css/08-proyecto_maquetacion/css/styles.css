@@ -207,4 +207,15 @@ cada opción del menú)*/
     line-height: 25px;
     /*para simular que el contenido es mas pequeño*/
     font-size: 12px;
+    transition: all 300ms;
+}
+
+
+/*cambiando color al texto dentro de los menús desplegables*/
+
+#nav>ul>li:hover>ul>li a {
+    color: #666666;
+    /*QUITAR Subrayado*/
+    text-decoration: none;
+    border-left: none;
 }
