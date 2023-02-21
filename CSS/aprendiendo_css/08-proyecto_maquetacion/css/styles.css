@@ -128,7 +128,7 @@ body {
     /*centrar todo*/
     margin: 0px auto;
     /*correr el contenido*/
-    width: 1130px;
+    width: 1150px;
 }
 
 
@@ -141,4 +141,19 @@ body {
     float: left;
     /*borde de separación para cada elemento del li*/
     border-right: 2px solid gray;
+}
+
+
+/*aplicando css a los enlaces dentro de los li*/
+
+#nav>ul>li>a {
+    /*para poder modificar los elementos del DOM */
+    display: block;
+    /*espacio interno a la izquierda (distancia entre cada elemento de la lista)*/
+    padding-left: 20px;
+    /*espacio interno a la derecha (distancia entre cada elemento de la lista)*/
+    padding-right: 20px;
+    color: white;
+    /*quitar subrayado de enlace*/
+    text-decoration: none;
 }
