@@ -226,3 +226,14 @@ cada opción del menú)*/
 #nav>ul>li:hover>ul>li:hover {
     box-shadow: 0px 0px 6px #ccc inset;
 }
+
+
+/*css contenido*/
+
+#content {
+    width: 1250px;
+    /*scroll mínimo*/
+    min-height: 110px;
+    /*recolocar el contenido */
+    margin: 0px auto;
+}
