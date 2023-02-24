@@ -276,3 +276,9 @@ cada opción del menú)*/
     /*borde inferior*/
     border-bottom: 1px dashed #666666;
 }
+
+#aside .widget:last-child {
+    /*agregarle margin bottom al último elemento div del objeto
+    con id aside*/
+    margin-bottom: 20px;
+}
