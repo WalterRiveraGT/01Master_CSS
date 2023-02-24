@@ -257,3 +257,22 @@ cada opción del menú)*/
     /*fuentes*/
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/*css para cajas con clase (widget)*/
+
+#aside .widget {
+    /*despliegue de contenido*/
+    display: block;
+    width: 180px;
+    /*correr el contenido para "adentro"*/
+    margin: 5px auto;
+    /*separación a nivel interno de los elementos (por arriba y abajo)*/
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*tamaño de letra*/
+    font-size: 14px;
+    /*borde inferior*/
+    border-bottom: 1px dashed #666666;
+}
