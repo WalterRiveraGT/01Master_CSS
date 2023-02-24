@@ -237,3 +237,23 @@ cada opción del menú)*/
     /*recolocar el contenido */
     margin: 0px auto;
 }
+
+
+/*css barra lateral (aside)*/
+
+#aside {
+    /*ancho*/
+    width: 200px;
+    /*para que el aside vaya flotado a la izquierda*/
+    float: left;
+    /*margen externo para todos los lados de la caja*/
+    margin: 30px;
+    /*color de fondo*/
+    background-color: white;
+    /*border para todo el aside*/
+    border: 1px solid #ccc;
+    /*sombreado en el margen inferior del aside*/
+    box-shadow: 0px 2px 2px #ccc;
+    /*fuentes*/
+    font-family: Arial, Helvetica, sans-serif;
+}
