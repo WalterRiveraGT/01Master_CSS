@@ -282,3 +282,23 @@ cada opción del menú)*/
     con id aside*/
     margin-bottom: 20px;
 }
+
+
+/*estilos de formularios*/
+
+
+/*encabezados de cada widget*/
+
+#aside h3 {
+    display: block;
+    width: 100%;
+    color: #333333;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #f2f3f2;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+    border-left: none;
+}
