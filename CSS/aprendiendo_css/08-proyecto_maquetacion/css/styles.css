@@ -21,6 +21,28 @@ body {
 }
 
 
+/*formularios*/
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    border: 1px solid #c9c9c9;
+    /*sombreado interno con 2px de difuminación*/
+    box-shadow: 0px 0px 2px #ccc inset;
+    background: white;
+    /*espaciado interno para todos los lados*/
+    padding: 1px;
+    /*añadimos más espaciado interno*/
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /*color le la fuente*/
+    color: gray;
+    /*efecto de transición*/
+    transition: all 300ms;
+}
+
+
 /*estilos de cabecera*/
 
 #header {
