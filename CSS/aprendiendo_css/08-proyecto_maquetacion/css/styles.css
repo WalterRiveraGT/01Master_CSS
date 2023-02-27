@@ -56,6 +56,25 @@ select:focus {
 }
 
 
+/*CSS a los botones*/
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+    display: inline-block;
+    /*bordes levemente redondeados*/
+    border-radius: 2px;
+    width: 60px;
+    padding: 3px;
+    background-color: #70b231;
+    border: 1px solid green;
+    /*poner el cursor en forma de dedo*/
+    cursor: pointer;
+    color: white;
+}
+
+
 /*estilos de cabecera*/
 
 #header {
