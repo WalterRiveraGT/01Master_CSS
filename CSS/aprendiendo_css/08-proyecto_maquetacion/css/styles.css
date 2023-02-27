@@ -43,6 +43,19 @@ select {
 }
 
 
+/*cuando se posicionen sobre los elementos*/
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border: 1px solid #70b231;
+    /*cuando esté escribiendo el texto se vuelva
+    de color negro*/
+    color: black;
+}
+
+
 /*estilos de cabecera*/
 
 #header {
