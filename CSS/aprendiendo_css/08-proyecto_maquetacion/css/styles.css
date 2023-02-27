@@ -85,6 +85,19 @@ button:hover {
 }
 
 
+/*cuando se estén pulsando los botones*/
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+button:active {
+    /*sombreado por dentro del input*/
+    box-shadow: 0px 0px 3px gray inset;
+    /*sombreado del texto*/
+    text-shadow: 0px 0px 1px #ccc;
+}
+
+
 /*estilos de cabecera*/
 
 #header {
