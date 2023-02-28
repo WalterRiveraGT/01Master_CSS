@@ -379,3 +379,18 @@ cada opción del menú)*/
     border-right: none;
     border-left: none;
 }
+
+
+/*formularios de la barra lateral*/
+
+#aside div label,
+#aside div input[type="text"],
+#aside div input[type="password"],
+#aside div input[type="email"],
+#aside div a {
+    /*para poder mover los elementos como queramos*/
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
