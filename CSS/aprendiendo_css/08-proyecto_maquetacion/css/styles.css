@@ -375,6 +375,8 @@ cada opción del menú)*/
     padding-bottom: 2px;
     background: #f2f3f2;
     border-top: 1px solid #ccc;
+    /*agregando borde inferior entre el título del widget y el label próximo*/
+    margin-bottom: 15px;
     border-bottom: 1px solid #ccc;
     border-right: none;
     border-left: none;
