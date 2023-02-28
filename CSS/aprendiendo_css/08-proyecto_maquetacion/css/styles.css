@@ -394,3 +394,13 @@ cada opción del menú)*/
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+
+/*botones de los formularios*/
+
+#aside div input[type="button"],
+#aside div input[type="submit"],
+#aside div button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
