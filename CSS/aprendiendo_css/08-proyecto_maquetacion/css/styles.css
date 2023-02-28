@@ -21,6 +21,14 @@ body {
 }
 
 
+/*enlaces*/
+
+a {
+    color: #529125;
+    text-decoration: none;
+}
+
+
 /*formularios*/
 
 input[type="text"],
