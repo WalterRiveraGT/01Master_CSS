@@ -29,6 +29,21 @@ a {
 }
 
 
+/*cuando se pase el mouse por encima del enlace sin clicar*/
+
+a:hover {
+    color: #285616;
+    cursor: pointer;
+}
+
+
+/*cuando los enlaces ya hayan sido visitados*/
+
+a:visited {
+    color: violet;
+}
+
+
 /*formularios*/
 
 input[type="text"],
