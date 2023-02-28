@@ -406,6 +406,17 @@ cada opción del menú)*/
 }
 
 
+/*aside con elementos li parte inferior*/
+
+#aside li {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    /*viñetas estilo cuadrado*/
+    list-style: square;
+}
+
+
 /*formularios de la barra lateral*/
 
 #aside div label,
