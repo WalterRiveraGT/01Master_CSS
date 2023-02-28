@@ -404,3 +404,13 @@ cada opción del menú)*/
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+
+/*centrando todos los input y label de la barra lateral*/
+
+#aside input,
+#aside label {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
