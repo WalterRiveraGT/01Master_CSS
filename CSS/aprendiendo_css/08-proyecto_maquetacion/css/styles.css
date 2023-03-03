@@ -364,6 +364,16 @@ cada opción del menú)*/
 }
 
 
+/*aplicando css al aside con id frase*/
+
+#frase {
+    padding: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 180px;
+}
+
+
 /*css para cajas con clase (widget)*/
 
 #aside .widget {
