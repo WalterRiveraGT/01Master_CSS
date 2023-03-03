@@ -339,9 +339,14 @@ cada opción del menú)*/
 }
 
 
-/*css barra lateral (aside)*/
+/*css barra lateral (aside) y frase del día*/
 
-#aside {
+#aside,
+#frase {
+    /*hacer que los elementos estén uno bajo el otro*/
+    /*both Es un keyword que  indica que el elemento es movido hacia abajo para
+     limpiar tanto elementos flotantes de la izquierda como de la derecha.*/
+    clear: both;
     /*ancho*/
     width: 200px;
     /*para que el aside vaya flotado a la izquierda*/
