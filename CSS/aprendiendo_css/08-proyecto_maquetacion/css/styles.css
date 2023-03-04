@@ -346,7 +346,7 @@ cada opción del menú)*/
     /*hacer que los elementos estén uno bajo el otro*/
     /*both Es un keyword que  indica que el elemento es movido hacia abajo para
      limpiar tanto elementos flotantes de la izquierda como de la derecha.*/
-    clear: both;
+    /*clear: both;*/
     /*ancho*/
     width: 200px;
     /*para que el aside vaya flotado a la izquierda*/
@@ -367,6 +367,7 @@ cada opción del menú)*/
 /*aplicando css al aside con id frase*/
 
 #frase {
+    clear: both;
     padding: 10px;
     font-size: 14px;
     font-family: sans-serif;
@@ -479,4 +480,17 @@ aplicadas, sobre otras posibles*/
 
 .blue {
     color: #0C73F2 !important;
+}
+
+
+/*css secciones body*/
+
+
+/*contenedor general de todos los divs del body en secciones de noticias*/
+
+#sections {
+    float: right;
+    width: 75%;
+    font-family: sans-serif, arial, helvetica;
+    margin-right: 20px;
 }
