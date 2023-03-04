@@ -469,6 +469,10 @@ cada opción del menú)*/
 
 /*encabezados de widget aula virtual 1 y 2*/
 
+
+/*el !important se usa para darle la mayor prioridad a las propiedades css
+aplicadas, sobre otras posibles*/
+
 .red {
     color: #9b2422 !important;
 }
