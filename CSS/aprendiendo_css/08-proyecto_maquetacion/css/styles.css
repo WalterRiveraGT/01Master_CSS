@@ -541,3 +541,11 @@ aplicadas, sobre otras posibles*/
     se oculte*/
     overflow: hidden;
 }
+
+
+/*articulos dentro de las secciones*/
+
+#sections .article {
+    margin: 10px;
+    margin-bottom: 20px;
+}
