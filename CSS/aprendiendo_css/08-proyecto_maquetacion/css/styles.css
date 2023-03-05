@@ -525,3 +525,19 @@ aplicadas, sobre otras posibles*/
     /*espaciado por debajo del título*/
     margin-bottom: 20px;
 }
+
+
+/*secciones dentro de la sección principal*/
+
+#sections section {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #c9c9c9;
+    color: #333333;
+    font-size: 16px;
+    /*todo contenido que se salga de las secciones
+    se oculte*/
+    overflow: hidden;
+}
