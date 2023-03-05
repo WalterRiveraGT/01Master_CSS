@@ -549,3 +549,11 @@ aplicadas, sobre otras posibles*/
     margin: 10px;
     margin-bottom: 20px;
 }
+
+
+/*span dentro de los articulos, con una clase date*/
+
+#sections .date {
+    color: gray;
+    font-size: 14px;
+}
