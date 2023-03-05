@@ -494,3 +494,12 @@ aplicadas, sobre otras posibles*/
     font-family: sans-serif, arial, helvetica;
     margin-right: 20px;
 }
+
+
+/*css h1 de las secciones*/
+
+#sections .titulo {
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+}
