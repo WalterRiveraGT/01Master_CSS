@@ -7,6 +7,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "fajala";
+    src: url("../fonts/FjallaOne-Regular.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /*Estilos  generales*/
 
@@ -499,7 +506,22 @@ aplicadas, sobre otras posibles*/
 /*css h1 de las secciones*/
 
 #sections .titulo {
+    /*tamaño de la fuente*/
     font-size: 25px;
-    margin-bottom: 5px;
+    /*tipo de fuente*/
+    font-weight: normal;
+    /*espacio entre cada caracter de la fuente*/
+    letter-spacing: 1px;
+    /*alineación del texto*/
     text-align: center;
+    /*espacio interno entre elementos (superior)*/
+    padding-top: 20px;
+    /*espacio interno inferior entre elementos */
+    padding-bottom: 1px;
+    /*borde interno inferior de los h1 en las secciones */
+    border-bottom: 1px solid #ccc;
+    /*fuente personalizada*/
+    font-family: fajala;
+    /*espaciado por debajo del título*/
+    margin-bottom: 20px;
 }
