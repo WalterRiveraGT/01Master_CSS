@@ -577,3 +577,14 @@ aplicadas, sobre otras posibles*/
     /*mover la pegatina dos a la derecha*/
     margin-left: 63%;
 }
+
+
+/*colorcarle color distinto
+a los títulos de las secciones de noticias*/
+
+
+/*noticias frontend*/
+
+#sections #frontend .titulo {
+    color: #3c570b;
+}
