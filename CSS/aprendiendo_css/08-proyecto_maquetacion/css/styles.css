@@ -18,6 +18,11 @@
 /*ícono para las secciones de noticias
 a través de una fuente personalizada*/
 
+
+/*hay que descargar los archivos de cualquier página que permita transformar
+las letras en íconos,
+ recomendación del instructor: websymbols*/
+
 @font-face {
     font-family: "icons";
     src: url("../fonts/websymbols-regular-webfont.svg#WebsymbolsRegular") format('svg'), url("../fonts/websymbols-regular-webfont.eot");
