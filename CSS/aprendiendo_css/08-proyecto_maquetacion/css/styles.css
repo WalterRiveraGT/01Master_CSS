@@ -588,3 +588,10 @@ a los títulos de las secciones de noticias*/
 #sections #frontend .titulo {
     color: #3c570b;
 }
+
+
+/*noticias del Instructor*/
+
+#sections #instructor .titulo {
+    color: #123456;
+}
