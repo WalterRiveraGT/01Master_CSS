@@ -627,5 +627,12 @@ a los títulos de las secciones de noticias*/
 en viñetas personalzidas con el fontface icons*/
 
 .icon {
+    /*fuente personalizada para los íconos*/
     font-family: "icons";
+    /*flotar a la izquierda*/
+    float: left;
+    /*separar del párrafo*/
+    margin-right: 5px;
+    /*sobresaltar un poco del contenido*/
+    margin-top: -1px;
 }
