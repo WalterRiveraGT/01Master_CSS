@@ -15,6 +15,17 @@
 }
 
 
+/*ícono para las secciones de noticias
+a través de una fuente personalizada*/
+
+@font-face {
+    font-family: "icons";
+    src: url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular"), url("../fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/websymbols-regular-webfont.woff") format("woff"), url("../fonts/websymbols-regular-webfont.ttf") format("truetype"), format("svg"), url("../fonts/websymbols-regular-webfont.eot");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /*Estilos  generales*/
 
 * {
@@ -374,7 +385,7 @@ cada opción del menú)*/
 /*aplicando css al aside con id frase*/
 
 #frase {
-    clear: both;
+    /*clear: both;*/
     padding: 10px;
     font-size: 14px;
     font-family: sans-serif;
@@ -594,4 +605,11 @@ a los títulos de las secciones de noticias*/
 
 #sections #instructor .titulo {
     color: #123456;
+}
+
+
+/*noticias back-end*/
+
+#sections #backend .titulo {
+    color: #530567;
 }
