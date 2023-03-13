@@ -20,7 +20,10 @@ a través de una fuente personalizada*/
 
 @font-face {
     font-family: "icons";
-    src: url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular"), url("../fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/websymbols-regular-webfont.woff") format("woff"), url("../fonts/websymbols-regular-webfont.ttf") format("truetype"), format("svg"), url("../fonts/websymbols-regular-webfont.eot");
+    src: url("../fonts/websymbols-regular-webfont.svg#WebsymbolsRegular") format('svg'), url("../fonts/websymbols-regular-webfont.eot");
+    src: url("../fonts/websymbols-regular-webfont.eot?#iefix") format('embedded-opentype');
+    src: url("/fonts/websymbols-regular-webfont.woff") format('woff');
+    src: url("../fonts/websymbols-regular-webfont.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -534,7 +537,7 @@ aplicadas, sobre otras posibles*/
     /*borde interno inferior de los h1 en las secciones */
     border-bottom: 1px solid #ccc;
     /*fuente personalizada*/
-    font-family: fajala;
+    font-family: "fajala";
     /*espaciado por debajo del título*/
     margin-bottom: 20px;
 }
@@ -612,4 +615,12 @@ a los títulos de las secciones de noticias*/
 
 #sections #backend .titulo {
     color: #530567;
+}
+
+
+/*aplicando css a los span para convertir las a
+en viñetas personalzidas con el fontface icons*/
+
+.icon {
+    font-family: "icons";
 }
