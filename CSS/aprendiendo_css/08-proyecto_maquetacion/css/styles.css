@@ -557,3 +557,21 @@ aplicadas, sobre otras posibles*/
     color: gray;
     font-size: 14px;
 }
+
+
+/*pegatinas (stickers parte superior)*/
+
+#sections .stickerOne,
+#sections .stickerTwo {
+    /*colocar el primer objeto en una posición absoluta para
+    poderlo mover hacia arriba*/
+    position: absolute;
+    margin-top: -50px;
+    /*no se superponga o esconda del div del contenido la pegatina*/
+    z-index: 0;
+}
+
+#sections .stickerTwo {
+    /*mover la pegatina dos a la derecha*/
+    margin-left: 63%;
+}
