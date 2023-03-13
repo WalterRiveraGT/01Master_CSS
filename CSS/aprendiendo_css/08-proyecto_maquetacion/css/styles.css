@@ -514,6 +514,8 @@ aplicadas, sobre otras posibles*/
     letter-spacing: 1px;
     /*alineación del texto*/
     text-align: center;
+    /*subir un poco mas el encabezado del título de cada una de las secciones de noticias*/
+    margin-top: -20px;
     /*espacio interno entre elementos (superior)*/
     padding-top: 20px;
     /*espacio interno inferior entre elementos */
