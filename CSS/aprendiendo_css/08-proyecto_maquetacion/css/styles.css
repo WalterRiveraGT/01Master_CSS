@@ -636,3 +636,11 @@ en viñetas personalzidas con el fontface icons*/
     /*sobresaltar un poco del contenido*/
     margin-top: -1px;
 }
+
+
+/*limpiar los flotados*/
+
+.clearfix {
+    float: none;
+    clear: both;
+}
