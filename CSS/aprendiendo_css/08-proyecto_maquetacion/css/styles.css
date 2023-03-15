@@ -675,5 +675,6 @@ footer {
     font-family: sans-serif;
     /*tamaño de fuente*/
     font-size: 14px;
+    /*sombreado*/
     box-shadow: 0px 0px 2px gray;
 }
