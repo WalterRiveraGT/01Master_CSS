@@ -4,10 +4,13 @@
 }
 
 #tit {
-    width: 1320px;
-    height: 70%;
+    width: 50%;
+    height: 100%;
     text-align: center;
-    margin: 20px;
+    /*centrando el div*/
+    margin: 0px auto;
+    /*espacio en parte superior*/
+    margin-top: 20px;
     text-align: center;
     color: white;
     font-size: 75px;
