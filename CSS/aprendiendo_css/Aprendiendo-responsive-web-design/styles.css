@@ -1,10 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 #tit {
-    width: 90%;
+    width: 1320px;
     height: 70%;
     text-align: center;
     margin: 20px;
     text-align: center;
-    color: #164f88;
+    color: white;
     font-size: 75px;
-    background-color: #bb698f;
+    background-color: #44881f;
 }
