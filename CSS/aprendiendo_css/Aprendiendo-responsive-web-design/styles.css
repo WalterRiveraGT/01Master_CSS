@@ -3,20 +3,6 @@
     margin: 0px;
 }
 
-#tit {
-    width: 50%;
-    height: 100%;
-    text-align: center;
-    /*centrando el div*/
-    margin: 0px auto;
-    /*espacio en parte superior*/
-    margin-top: 20px;
-    text-align: center;
-    color: white;
-    font-size: 75px;
-    background-color: #44881f;
-}
-
 
 /*todo el contenido centrado*/
 
@@ -25,4 +11,21 @@
     background: #4a6891;
     color: white;
     margin: 0px auto;
+}
+
+
+/*header con id tit*/
+
+#tit {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    /*centrando el div*/
+    margin: 0px auto;
+    /*espacio en parte superior*/
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 75px;
+    background-color: lightskyblue;
 }
