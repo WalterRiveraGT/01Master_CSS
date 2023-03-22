@@ -44,6 +44,7 @@
     min-height: 700px;
     float: left;
     background: #ccc;
+    color: red;
     text-align: center;
     line-height: 700px;
 }
@@ -54,4 +55,19 @@
 .clearfix {
     float: none;
     clear: both;
+}
+
+
+/*Aplicando css a los artículos*/
+
+#articles {
+    /*75% de tamaño del div que lo contiene*/
+    width: 75%;
+    min-height: 700px;
+    /*flotar el contendor de articulos a la izquierda*/
+    float: left;
+    /*colocar al lado de la otra caja*/
+    float: left;
+    background: lemonchiffon;
+    color: red;
 }
