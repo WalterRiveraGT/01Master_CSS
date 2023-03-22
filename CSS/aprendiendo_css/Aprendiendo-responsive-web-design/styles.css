@@ -38,7 +38,7 @@
     con conceptos responsivos, pues este objeto
     se ajustará en ese tamaño según el div que lo contenga*/
     width: 25%;
-    min-height: initial;
+    min-height: 700px;
     float: left;
     background: #ccc;
 }
