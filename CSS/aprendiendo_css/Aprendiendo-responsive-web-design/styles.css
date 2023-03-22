@@ -7,7 +7,7 @@
 /*todo el contenido centrado*/
 
 #container {
-    width: 1000px;
+    width: 70%;
     background: #4a6891;
     color: white;
     text-align: center;
@@ -70,4 +70,21 @@
     float: left;
     background: lemonchiffon;
     color: red;
+}
+
+
+/*css para cada elemento article*/
+
+#articles article {
+    /*en responsive, regularmente el ancho se coloca en porcentaje
+    y no en px para que el contenido se ajuste al tamaño de la pantalla*/
+    width: 25%;
+    height: 150px;
+    background: green;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    border: 2px solid white;
+    float: left;
+    margin: 15px;
 }
