@@ -16,3 +16,13 @@
     font-size: 75px;
     background-color: #44881f;
 }
+
+
+/*todo el contenido centrado*/
+
+#container {
+    width: 1000px;
+    background: #4a6891;
+    color: white;
+    margin: 0px auto;
+}
