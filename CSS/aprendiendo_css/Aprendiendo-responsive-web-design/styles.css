@@ -64,8 +64,6 @@
     /*75% de tamaño del div que lo contiene*/
     width: 75%;
     min-height: 700px;
-    /*flotar el contendor de articulos a la izquierda*/
-    float: left;
     /*colocar al lado de la otra caja*/
     float: left;
     background: lemonchiffon;
@@ -87,4 +85,34 @@
     border: 2px solid white;
     float: left;
     margin: 15px;
+}
+
+
+/*responsive*/
+
+
+/*media queries: Se usan cuando encontramos un
+punto de corte en la vista de los objetos de la página es decir,
+cuando se desajusta su contenido*/
+
+
+/*esto quiere decir por ejemplo que desde la anchura
+0 px  hasta la 982px  se ejecutarán los siguientes estilos*/
+
+@media(max-width: 982px) {
+    /*se ejecutarán los siguientes códigos*/
+    #articles article {
+        width: 40%;
+        background: red;
+    }
+}
+
+
+/*otro punto de corte*/
+
+@media(max-width: 724px) {
+    #articles article {
+        width: 90%;
+        background: blue;
+    }
 }
