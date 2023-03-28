@@ -116,3 +116,13 @@ cuando se desajusta su contenido*/
         background: blue;
     }
 }
+
+
+/*aplicando un media querie para cambiar el color del body al 
+llegar a una anchura de 1111px*/
+
+@media(max-width:1111px) {
+    body {
+        background: lightsalmon;
+    }
+}
